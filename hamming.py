@@ -3,6 +3,14 @@
 import sys
 
 def hammingDistance(originalDNA, newDNA):
+  """Determines the hamming distance between the original DNA string and the new DNA string
+
+  originalDNA (str): String containing the original DNA
+  newDNA (str): String containing the new DNA
+
+  return: Returns the number of differences found between the strings.  Returns -1 if strings are not the same length
+
+  """
   if (len(originalDNA) != len(newDNA)):
     return -1
 
